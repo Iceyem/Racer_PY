@@ -8,12 +8,12 @@ app = Ursina()
 # Membuat objek pemain 1
 player1 = Entity(model='quad', texture='PngItem_4964749.png',
                  scale=(2, 1, 2), position=(-6, 0, 0))
-player1.speed = 1
+player1.speed = 2
 
 # Membuat objek pemain 2
 player2 = Entity(model='quad', texture='Red-Convertible-Car-PNG-HD-Quality.png',
                  scale=(2, 1, 2), position=(-6, -2, 0))
-player2.speed = 1
+player2.speed = 2
 
 # Membuat map jalur
 map_line1 = Entity(model='quad', color=color.gray,
